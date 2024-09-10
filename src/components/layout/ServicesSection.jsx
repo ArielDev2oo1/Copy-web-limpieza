@@ -116,10 +116,10 @@ export default function ServicesSection() {
               </div>
             </div>
             <div className="pt-8 text-center">
-              <h3 className="text-xl font-bold mb-2 text-blue-900">
+              <h3 className="text-xl lg:text-lg font-bold mb-2 text-blue-900">
                 {service.title}
               </h3>
-              <p className="text-gray-700">{service.description}</p>
+              <p className="text-gray-700 lg:text-sm">{service.description}</p>
             </div>
           </div>
         ))}

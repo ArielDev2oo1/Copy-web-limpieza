@@ -62,7 +62,7 @@ export default function Contact() {
             {contact.map((contacts, index) => (
               <article
                 key={index}
-                className="bg-neutral-100 p-6 rounded-xl shadow-xl shadow-sky-200 hover:shadow-xl hover:shadow-sky-300 transition-shadow flex h-28 w-80 mdm:justify-center mdm:items-center"
+                className="bg-neutral-100 p-6 rounded-xl shadow-xl shadow-sky-200 hover:shadow-xl hover:shadow-sky-300 transition-shadow flex h-28 xl:w-80 mdm:justify-center mdm:items-center lg:w-64"
                 data-aos="zoom-in-down"
                 style={{
                   animation: "float 6s ease-in-out infinite",
