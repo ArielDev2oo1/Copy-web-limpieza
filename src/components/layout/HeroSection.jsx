@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import HeroPicture from "../../assets/images/heropicture.jpg";
 import BackgroundHero from "../../assets/images/backgroundHero1.png";
 import LadyCleaning from "../../assets/images/heroImage.png";
 
@@ -39,9 +38,9 @@ export default function HeroSection() {
       }}
     >
       <div className="absolute inset-0 bg-white opacity-25"></div>
-      <div className="relative container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 justify-center h-full xs:flex xs:flex-col-reverse xs:px-0">
+      <div className="relative container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 md:place-items-center lg:place-items-start justify-center h-full xs:flex xs:flex-col-reverse xs:px-0">
         <div
-          className="text-left max-w-lg mx-24 flex flex-col justify-center xs:justify-start xs:mx-5 xs:text-center md:text-left"
+          className="text-left max-w-lg mx-24 flex flex-col justify-center xs:justify-start xs:mx-5 xs:text-center md:text-center lg:text-left md:items-center lg:items-start"
           data-aos="fade-right"
         >
           <h1 className="text-4xl md:text-6xl font-bold text-gray-50 xs:text-4xl ">
@@ -66,13 +65,13 @@ export default function HeroSection() {
         </div>
 
         <div
-          className="lg:absolute right-0 bottom-0 xs:relative xs:mt-8 xs:flex xs:items-center xs:justify-center md:relative md:mt-8 md:flex md:items-center md:justify-center"
+          className="lg:absolute right-0 bottom-0 xs:relative xs:mt-8 xs:flex xs:items-center xs:justify-center md:relative md:mt-2 md:flex md:items-center md:justify-center"
           style={{ maskImage: "linear-gradient(black 80%, transparent)" }}
         >
           <img
             src={LadyCleaning}
             alt="Cleaning Lady"
-            className="lg:w-auto lg:h-screen xs:w-72 xs:h-72 mdm:w-96 mdm:h-96 md:w-au"
+            className="lg:w-auto lg:h-screen xs:w-72 xs:h-72 mdm:w-96 mdm:h-96 md:w-auto"
             data-aos="fade-left"
             style={{ maskImage: "linear-gradient(black 95%, transparent)" }}
           />

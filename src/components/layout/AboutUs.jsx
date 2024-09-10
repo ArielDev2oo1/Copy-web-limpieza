@@ -7,12 +7,12 @@ export default function AboutUs() {
   return (
     <section
       id="about"
-      className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center xs:flex-col-reverse"
+      className="container mx-auto px-4 py-16 flex flex-col lg:flex-row items-center xs:flex-col-reverse"
     >
-      <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center xs:mt-1">
+      <div className="lg:w-1/2 md:w-3/4 mt-8 md:mt-0 flex justify-center xs:mt-1">
         <img src={AboutUsI} alt="Cleaning Man" className="h-auto" />
       </div>
-      <div className="md:w-1/2 ">
+      <div className="lg:w-1/2 md:w-4/5">
         <div className="space-y-4 xs:space-y-2">
           <div className="space-y-10 xs:space-y-5">
             <h2 className="text-2xl text-center bg-blue-500 w-36 font-bold rounded-full text-white p-2 xs:text-xl xs:w-32">

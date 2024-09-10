@@ -41,7 +41,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="container mx-auto p-6 mt-8 xs:mt-3">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex flex-col space-y-8 xs:space-y-3">
           <h2 className="text-2xl text-center bg-blue-500 w-36 font-bold rounded-full text-white p-2 xs:text-xl xs:w-32">
             Contact us

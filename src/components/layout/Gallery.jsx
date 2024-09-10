@@ -74,7 +74,7 @@ export default function Gallery() {
           Opcion 2
         </button>
       </div>
-      <div className="gallery grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+      <div className="gallery grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
         {filteredImages.map((image) => (
           <ImageCard
             key={image.id}
