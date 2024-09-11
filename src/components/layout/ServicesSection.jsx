@@ -10,7 +10,14 @@ import GeneralCleaning from "../../assets/images/general-cleaning.png";
 
 //fondos para servicios
 
-import Miss from "../../assets/images/miss.jpg";
+import WindowsCleaningbg from "../../assets/images/windowsbg.jpg";
+import CarpetShampoobg from "../../assets/images/carpetbg.jpg";
+import FloorWaxingbg from "../../assets/images/floorbg.webp";
+import FloorBuffingbg from "../../assets/images/buffingbg.jpg";
+import DeepCleaningbg from "../../assets/images/deepbg.jpg";
+import ApartmentsCleaningbg from "../../assets/images/apartmentbg.jpg";
+import PowerWashingbg from "../../assets/images/washingbg.jpg";
+import GeneralCleaningbg from "../../assets/images/miss.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -31,56 +38,56 @@ export default function ServicesSection() {
       description:
         "We remove stains, dirt, and fingerprints from your windows to ensure a clear view and sparkling shine.",
       icon: WindowsCleaning,
-      bgImage: Miss,
+      bgImage: WindowsCleaningbg,
     },
     {
       title: "Carpet Shampoo",
       description:
         "We use specialized cleaners and extraction machines to remove stains and odors, leaving your carpets clean and fresh.",
       icon: CarpetShampoo,
-      bgImage: Miss,
+      bgImage: CarpetShampoobg,
     },
     {
       title: "Floor Waxing",
       description:
         "We apply a protective layer of wax to your floors to restore their shine and provide a barrier against wear and dirt.",
       icon: FloorWaxing,
-      bgImage: Miss,
+      bgImage: FloorWaxingbg,
     },
     {
       title: "Floor Buffing",
       description:
         "We use specialized equipment to smooth and restore the shine of your floors, removing scratches and stains for a glossy finish.",
       icon: FloorBuffing,
-      bgImage: Miss,
+      bgImage: FloorBuffingbg,
     },
     {
       title: "Deep Cleaning",
       description:
         "We perform a thorough cleaning of all areas, removing built-up dirt, bacteria, and germs for a truly clean environment.",
       icon: DeepCleaning,
-      bgImage: Miss,
+      bgImage: DeepCleaningbg,
     },
     {
       title: "Apartments Vacancies Cleaning",
       description:
         "We prepare vacant apartments for new tenants, ensuring that every corner is spotless and ready for move-in.",
       icon: ApartmentsCleaning,
-      bgImage: Miss,
+      bgImage: ApartmentsCleaningbg,
     },
     {
       title: "Power Washing",
       description:
         "We use a powerful high-pressure water machine to clean exterior surfaces, removing dirt, mold, and tough stains.",
       icon: PowerWashing,
-      bgImage: Miss,
+      bgImage: PowerWashingbg,
     },
     {
       title: "General Cleaning",
       description:
         "We offer routine cleaning of your space, covering essential tasks like sweeping, mopping, and kitchen sanitization.",
       icon: GeneralCleaning,
-      bgImage: Miss,
+      bgImage: GeneralCleaningbg,
     },
   ];
   return (
