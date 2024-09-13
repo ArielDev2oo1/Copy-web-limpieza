@@ -1,6 +1,5 @@
 import express from 'express';
-import { submitContactFormMailJet, submitContactFormNodeMailer } from '../controllers/contactControllers.js';
-import { Message } from 'node-mailjet';
+import { submitContactFormNodeMailer } from '../controllers/contactControllers.js';
 
 const router = express.Router();
 
