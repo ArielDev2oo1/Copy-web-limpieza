@@ -139,7 +139,7 @@ export const submitContactFormNodeMailer = (req, res) => {
     // Opciones para el correo al propietario
     const mailToOwnerOptions  = {
         from: `"${formattedName}" <${email}>`,
-        to: process.env.EMAIL_USER, // Dirección del servidor a la que se envía el correo
+        to: process.env.EMAIL_USER_CONTACT, // Dirección del servidor a la que se envía el correo
         replyTo: email, // Dirección del usuario para que pueda responder
         subject: `Message from ${formattedName}`,
         html: `
@@ -188,7 +188,7 @@ export const submitContactFormNodeMailer = (req, res) => {
 
     // Opciones para el correo de agradecimiento al usuario
     const mailToUserOptions = {
-        from: `Maintenance and Cleaning <${process.env.EMAIL_USER}>`, // El correo del propietario como remitente
+        from: `Maintenance and Cleaning <${process.env.EMAIL_USER_CONTACT}>`, // El correo del propietario como remitente
         to: email, // El correo del usuario
         subject: `Thank you for contacting us, ${formattedName}`,
         html: `

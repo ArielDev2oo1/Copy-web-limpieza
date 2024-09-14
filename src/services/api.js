@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/contact/nodemailer';  // La URL de la API 
+const API_URL = 'https://web-limpieza.onrender.com/api/contact/nodemailerr';  // La URL de la API 
 
 export const sendContactForm = async (name, email, message) => {
   try {
