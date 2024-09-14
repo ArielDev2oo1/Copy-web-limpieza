@@ -141,7 +141,7 @@ export const submitContactFormNodeMailer = (req, res) => {
         from: `"${formattedName}" <${email}>`,
         to: process.env.EMAIL_USER, // Dirección del servidor a la que se envía el correo
         replyTo: email, // Dirección del usuario para que pueda responder
-        subject: `Mensaje de ${formattedName}`,
+        subject: `Message from ${formattedName}`,
         html: `
             <div style="font-family: Arial, sans-serif; padding: 20px; background-color: #ffffff; color: #333; max-width: 600px; margin: 0 auto; border-radius: 8px; border: 1px solid #e0e0e0;">
             <!-- Header -->
@@ -173,7 +173,7 @@ export const submitContactFormNodeMailer = (req, res) => {
             <div style="background-color: #F7F7F7; padding: 20px; text-align: center; border-radius: 0 0 8px 8px;">
                 <p style="font-size: 12px; color: #999999;">
                 This email was generated from the contact form of your website
-                <a href="https://www.companyname.com" style="color: #2980b9; text-decoration: none;">Company Name</a>.
+                <a href="https://aplus-mcsreyes.com/" style="color: #2980b9; text-decoration: none;">Company Name</a>.
                 </p>
                 <p style="font-size: 12px; color: #999999;">If you were not expecting this email, please ignore it.</p>
             </div>
@@ -188,7 +188,7 @@ export const submitContactFormNodeMailer = (req, res) => {
 
     // Opciones para el correo de agradecimiento al usuario
     const mailToUserOptions = {
-        from: `Empresa de Limpieza <${process.env.EMAIL_USER}>`, // El correo del propietario como remitente
+        from: `Maintenance and Cleaning <${process.env.EMAIL_USER}>`, // El correo del propietario como remitente
         to: email, // El correo del usuario
         subject: `Thank you for contacting us, ${formattedName}`,
         html: `
@@ -211,15 +211,15 @@ export const submitContactFormNodeMailer = (req, res) => {
                 <strong>Maintenance and Cleaning</strong><br>
                 Phone: +1(213)909-1735<br>
                 Email: <a href="mailto:cr7776279@gmail.com" style="color: #2980b9;">cr7776279@gmail.com</a><br>
-                <a href="https://www.nombreempresa.com" style="color: #2980b9; text-decoration: none;">Visit our website</a>
+                <a href="https://aplus-mcsreyes.com/" style="color: #2980b9; text-decoration: none;">Visit our website</a>
                 </p>
                 <p style="font-size: 12px; color: #7f8c8d;">This is an automated email. No need to reply to this message.</p>
             </div>
 
             <div style="text-align: center; font-size: 12px; color: #7f8c8d; padding-top: 10px; border-top: 1px solid #e1e1e1; margin-top: 10px;">
                 <p style="margin: 0;">© 2024 Maintenance and Cleaning. All rights reserved.</p>
-                <a href="https://www.nombreempresa.com/privacidad" style="color: #2980b9;">Privacy Policy</a> | 
-                <a href="https://www.nombreempresa.com/terminos" style="color: #2980b9;">Terms and Conditions</a>
+                <a href="https://aplus-mcsreyes.com/" style="color: #2980b9;">Privacy Policy</a> | 
+                <a href="https://aplus-mcsreyes.com/" style="color: #2980b9;">Terms and Conditions</a>
             </div>
             </div>
         `,
